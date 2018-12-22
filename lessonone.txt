@@ -1,0 +1,15 @@
+mkdir learngit #创建文件夹
+cd learngit #切换到此文件夹目录下
+pwd #显示当前所在目录
+git init #通过此命令将所建的文件夹变为git可管理的仓库
+
+
+vim file.txt #创建一个文件，点击i文件进入可编辑状态，编辑完成后，
+按下esc键，退出编辑模式，并且此时输入：wq以退出并保存刚刚输入的内容，
+此时，按下回车键，成功退出了编辑界面
+继续在命令行下输入命令：cat file.txt,；来查看刚刚写入的内容是否保存成功 
+
+
+把此文件放到learngit仓库中分两步：
+1.git add lessonone.txt #用命令git add告诉Git ，把文件提交到仓库
+2.git commit -m"说明文字" #把文件提交到仓库，可一次提交多个文件1
