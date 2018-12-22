@@ -13,3 +13,7 @@ vim file.txt #创建一个文件，点击i文件进入可编辑状态，编辑�
 把此文件放到learngit仓库中分两步：
 1.git add lessonone.txt #用命令git add告诉Git ，把文件提交到仓库
 2.git commit -m"说明文字" #把文件提交到仓库，可一次提交多个文件1
+
+
+
+lessontwo
