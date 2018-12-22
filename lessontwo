@@ -1,0 +1,7 @@
+git status #查看当前版本的状态，如是否添加到仓库、是否提交到仓库
+git diff   #查看当前版本与之前版本有什么区别
+
+git log    #显示从最近到最远的提交日志，可显示每个版本的ID
+git reset --hard HEAD^ #返回上一个版本
+git reset --hard ‘git ID’ #返回到指定ID版本下的内容
+git reflog  #记录每一次命令，里面包含各版本的ID
